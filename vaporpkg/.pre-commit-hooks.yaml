@@ -1,6 +1,0 @@
-- id: vaporpkg
-  name: vaporpkg - hallucinated / suspicious dependency check
-  description: Blocks commits that add non-existent, typosquatted or known-malicious PyPI/npm packages.
-  entry: vaporpkg scan
-  language: python
-  files: (^|/)(requirements[^/]*\.(txt|in)|pyproject\.toml|package\.json)$

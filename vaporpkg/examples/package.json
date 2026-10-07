@@ -1,9 +1,0 @@
-{
-  "name": "demo",
-  "private": true,
-  "dependencies": {
-    "express": "^4.19.2",
-    "express-redis-keylimit": "^1.0.0",
-    "heic-convert": "^2.1.0"
-  }
-}
