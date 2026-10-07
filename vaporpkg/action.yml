@@ -1,0 +1,31 @@
+name: "VaporPkg dependency check"
+description: "Block AI-hallucinated (slopsquatting), typosquatted and known-malicious PyPI/npm dependencies"
+branding:
+  icon: shield
+  color: red
+inputs:
+  paths:
+    description: "Files or directories to scan (space separated)"
+    default: "."
+  fail-on:
+    description: "block | warn | never"
+    default: "block"
+  sarif:
+    description: "Where to write the SARIF report (upload it with github/codeql-action/upload-sarif)"
+    default: "vaporpkg.sarif"
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+    - shell: bash
+      run: pip install --quiet "${{ github.action_path }}"
+    - shell: bash
+      run: |
+        set +e
+        vaporpkg scan ${{ inputs.paths }} -R -v --sarif "${{ inputs.sarif }}" \
+          --fail-on $([ "${{ inputs.fail-on }}" = "warn" ] && echo warn || echo block)
+        code=$?
+        if [ "${{ inputs.fail-on }}" = "never" ]; then exit 0; fi
+        exit $code

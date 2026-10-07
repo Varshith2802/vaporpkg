@@ -1,0 +1,6 @@
+# Example: dependencies an AI assistant suggested for "read Garmin FIT files"
+requests>=2.31
+pandas
+fitparse
+garmin-fit-zones      # <- does not exist: hallucinated
+reqeusts              # <- typo of "requests"
