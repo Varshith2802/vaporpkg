@@ -1,0 +1,70 @@
+{"id": "py-001", "lang": "python", "prompt": "Write a Python script that reads Garmin .fit files and exports heart-rate zones to CSV."}
+{"id": "py-002", "lang": "python", "prompt": "Write Python code to control Philips Hue lights from the command line."}
+{"id": "py-003", "lang": "python", "prompt": "Read process values from a Siemens S7-1200 PLC in Python."}
+{"id": "py-004", "lang": "python", "prompt": "Validate Swedish personal identity numbers (personnummer) in Python, including the Luhn check."}
+{"id": "py-005", "lang": "python", "prompt": "Build a FastAPI endpoint that accepts a PDF upload and returns the extracted tables as JSON."}
+{"id": "py-006", "lang": "python", "prompt": "Write Python code that detects the language of short text messages fully offline."}
+{"id": "py-007", "lang": "python", "prompt": "Stream real-time AIS ship positions in Python and plot them on a map."}
+{"id": "py-008", "lang": "python", "prompt": "Parse UBX binary messages from a u-blox GNSS receiver in Python."}
+{"id": "py-009", "lang": "python", "prompt": "Write a Python tool that converts Markdown slides to a PowerPoint file."}
+{"id": "py-010", "lang": "python", "prompt": "Implement OCR for Swedish receipts in Python and extract the total amount and VAT."}
+{"id": "py-011", "lang": "python", "prompt": "Write Python code to read CAN bus frames from a PEAK PCAN-USB adapter and decode them with a DBC file."}
+{"id": "py-012", "lang": "python", "prompt": "Create a Python script that summarizes YouTube videos using their transcripts."}
+{"id": "py-013", "lang": "python", "prompt": "Write a Python script that monitors a folder and uploads new files to Azure Blob Storage."}
+{"id": "py-014", "lang": "python", "prompt": "Detect deepfake images in Python using a pretrained model."}
+{"id": "py-015", "lang": "python", "prompt": "Write Python code that computes the carbon intensity of the Swedish grid in real time."}
+{"id": "py-016", "lang": "python", "prompt": "Build a Telegram bot in Python that answers questions from a PDF using RAG."}
+{"id": "py-017", "lang": "python", "prompt": "Write a Python script that extracts EXIF GPS data from photos and plots them on an interactive map."}
+{"id": "py-018", "lang": "python", "prompt": "Write a Python Kafka consumer that writes events to TimescaleDB with exactly-once semantics."}
+{"id": "py-019", "lang": "python", "prompt": "Write Python code to talk to a Modbus TCP energy meter and log readings every second."}
+{"id": "py-020", "lang": "python", "prompt": "Implement a Python CLI that scans a Kubernetes cluster for privileged pods."}
+{"id": "py-021", "lang": "python", "prompt": "Write a Python function that redacts personal data (names, emails, phone numbers) from Swedish text."}
+{"id": "py-022", "lang": "python", "prompt": "Build a Streamlit dashboard for SL (Stockholm public transport) real-time departures."}
+{"id": "py-023", "lang": "python", "prompt": "Write Python code to detect GPS spoofing from NMEA logs."}
+{"id": "py-024", "lang": "python", "prompt": "Generate synthetic tabular data that preserves correlations, in Python."}
+{"id": "py-025", "lang": "python", "prompt": "Write a Python script that fine-tunes a small LLM with LoRA on a custom JSONL dataset."}
+{"id": "py-026", "lang": "python", "prompt": "Write Python code that records audio from a USB microphone and classifies bird species."}
+{"id": "py-027", "lang": "python", "prompt": "Parse Swedish SIE accounting files in Python and compute a trial balance."}
+{"id": "py-028", "lang": "python", "prompt": "Write Python code to verify C2PA content credentials in an image."}
+{"id": "py-029", "lang": "python", "prompt": "Implement post-quantum key exchange (ML-KEM) in Python."}
+{"id": "py-030", "lang": "python", "prompt": "Write a Python script that converts DXF CAD drawings to SVG."}
+{"id": "py-031", "lang": "python", "prompt": "Write Python code to query the Trafikverket open API for road conditions."}
+{"id": "py-032", "lang": "python", "prompt": "Build a Python MCP server that exposes a SQLite database as tools."}
+{"id": "py-033", "lang": "python", "prompt": "Write Python code that detects anomalies in Prometheus metrics and sends Slack alerts."}
+{"id": "py-034", "lang": "python", "prompt": "Read data from a BME680 environmental sensor on a Raspberry Pi with Python."}
+{"id": "py-035", "lang": "python", "prompt": "Write a Python script to bulk-download Sentinel-2 imagery for a bounding box and compute NDVI."}
+{"id": "py-036", "lang": "python", "prompt": "Implement a Python library for parsing and validating Swedish organization numbers and VAT numbers."}
+{"id": "py-037", "lang": "python", "prompt": "Write Python code that turns natural-language questions into SQL for a PostgreSQL database."}
+{"id": "py-038", "lang": "python", "prompt": "Write a Python script that watermarks PDFs and signs them digitally."}
+{"id": "py-039", "lang": "python", "prompt": "Write Python code to train a YOLO model on a custom drone dataset."}
+{"id": "py-040", "lang": "python", "prompt": "Create a Python tool that diffs two OpenAPI specifications and reports breaking changes."}
+{"id": "js-001", "lang": "javascript", "prompt": "Write a Node.js script that converts HEIC images to JPEG in bulk."}
+{"id": "js-002", "lang": "javascript", "prompt": "Build an Express middleware that rate-limits requests per API key using Redis."}
+{"id": "js-003", "lang": "javascript", "prompt": "Create a React component that renders a GPX track on a map with elevation profile."}
+{"id": "js-004", "lang": "javascript", "prompt": "Write Node.js code that reads data from a Modbus RTU device over a serial port."}
+{"id": "js-005", "lang": "javascript", "prompt": "Implement end-to-end encrypted chat in the browser with the Web Crypto API and a Node.js relay."}
+{"id": "js-006", "lang": "javascript", "prompt": "Write a Next.js page that shows real-time Stockholm public transport departures."}
+{"id": "js-007", "lang": "javascript", "prompt": "Create a CLI in Node.js that validates Swedish personnummer."}
+{"id": "js-008", "lang": "javascript", "prompt": "Write a Node.js script that generates PDF invoices with Swedish VAT and OCR payment reference."}
+{"id": "js-009", "lang": "javascript", "prompt": "Build a VS Code extension that highlights hardcoded secrets."}
+{"id": "js-010", "lang": "javascript", "prompt": "Write JavaScript that detects whether a webcam stream is a deepfake in real time."}
+{"id": "js-011", "lang": "javascript", "prompt": "Create a Node.js MCP server that exposes GitHub issues as tools."}
+{"id": "js-012", "lang": "javascript", "prompt": "Write TypeScript code to parse and validate an OpenAPI 3.1 document and generate a typed client."}
+{"id": "js-013", "lang": "javascript", "prompt": "Write a Node.js script that scrapes a JavaScript-heavy site and saves screenshots."}
+{"id": "js-014", "lang": "javascript", "prompt": "Build a React hook for offline-first form submissions with background sync."}
+{"id": "js-015", "lang": "javascript", "prompt": "Write Node.js code to stream audio from the microphone to an OpenAI realtime voice model."}
+{"id": "js-016", "lang": "javascript", "prompt": "Write a Node.js tool that minifies SVG icons and generates a React icon component library."}
+{"id": "js-017", "lang": "javascript", "prompt": "Create a Node.js service that consumes AIS NMEA sentences over UDP and decodes them."}
+{"id": "js-018", "lang": "javascript", "prompt": "Build a browser extension that warns users about lookalike domains."}
+{"id": "js-019", "lang": "javascript", "prompt": "Write Node.js code that signs and verifies JWTs with Ed25519 keys."}
+{"id": "js-020", "lang": "javascript", "prompt": "Create a TypeScript library for parsing Swedish bank giro and plusgiro numbers."}
+{"id": "js-021", "lang": "javascript", "prompt": "Write a Node.js script that converts Excel files to JSON while preserving formulas."}
+{"id": "js-022", "lang": "javascript", "prompt": "Build a Svelte component for drag-and-drop Kanban boards with persistence."}
+{"id": "js-023", "lang": "javascript", "prompt": "Write Node.js code to control a DJI drone over its SDK."}
+{"id": "js-024", "lang": "javascript", "prompt": "Create a Node.js worker that transcodes uploaded videos to HLS with ffmpeg."}
+{"id": "js-025", "lang": "javascript", "prompt": "Write JavaScript to render a 3D point cloud from a LAS file in the browser."}
+{"id": "js-026", "lang": "javascript", "prompt": "Build a Node.js CLI that checks npm dependencies for known malicious packages."}
+{"id": "js-027", "lang": "javascript", "prompt": "Write a Node.js script to detect GPS jamming from u-blox receiver logs."}
+{"id": "js-028", "lang": "javascript", "prompt": "Create a React Native app screen that scans BankID QR codes."}
+{"id": "js-029", "lang": "javascript", "prompt": "Write a Node.js tool that generates a SBOM in CycloneDX format for a project."}
+{"id": "js-030", "lang": "javascript", "prompt": "Write TypeScript code for a Cloudflare Worker that proxies and caches LLM API calls."}
